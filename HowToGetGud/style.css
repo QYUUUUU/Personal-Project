@@ -1,0 +1,176 @@
+@charset "UTF-8";
+@import 'https://fonts.googleapis.com/css?family=Sintony';
+@import 'https://fonts.googleapis.com/css2?family=Staatliches&display=swap';
+body {
+  background: #2F323A;
+  padding: 0;
+  margin: 0;
+  font-weight: 300;
+  font-size: 13px;
+  text-transform: uppercase;
+  color: #000;
+}
+
+header {
+  background-color: #fff;
+  padding: 0;
+  margin: 0;
+}
+
+.section {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  letter-spacing: 2px;
+  overflow: hidden;
+  clip: rect(0, auto, auto, 0);
+}
+.section .fixed {
+  overflow: hidden;
+  position: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  top: 50%;
+  left: 50%;
+  width: 100vw;
+  height: 100vh;
+}
+.section .white {
+  color: #fff;
+}
+
+.section:nth-child(1) {
+  background-image: url(../img/fond1.png);
+  color: #FFF;
+  top: 0;
+  z-index: 1;
+}
+
+.section:nth-child(1) .fixed {
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.section:nth-child(2) {
+  background-image: url(../img/fond2.png);
+  -webkit-box-shadow: inset 0 1px 80px rgba(0, 0, 0, 0.14);
+  box-shadow: inset 0 1px 80px rgba(0, 0, 0, 0.14);
+  background-color: #2F323A;
+  color: #fff;
+  top: 100vh;
+  z-index: 2;
+}
+
+.section:nth-child(2) .fixed {
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.section:nth-child(3) {
+  background-image: url(../img/fond1.png);
+  -webkit-box-shadow: inset 0 1px 80px rgba(0, 0, 0, 0.14);
+  box-shadow: inset 0 1px 80px rgba(0, 0, 0, 0.14);
+  background-color: #fff;
+  color: #fff;
+  top: 200vh;
+  z-index: 3;
+}
+
+.section:nth-child(3) .fixed {
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.section:nth-child(4) {
+  background-image: url(../img/fond2.png);
+  -webkit-box-shadow: inset 0 1px 80px rgba(0, 0, 0, 0.14);
+  box-shadow: inset 0 1px 80px rgba(0, 0, 0, 0.14);
+  background-color: #2F323A;
+  color: #fff;
+  top: 300vh;
+  z-index: 4;
+}
+
+.section:nth-child(4) .fixed {
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.section:nth-child(5) {
+  background-image: url(../img/fond1.png);
+  -webkit-box-shadow: inset 0 1px 80px rgba(0, 0, 0, 0.14);
+  box-shadow: inset 0 1px 80px rgba(0, 0, 0, 0.14);
+  background-color: #850ac2;
+  color: #fff;
+  top: 400vh;
+  z-index: 5;
+}
+
+.section:nth-child(5) .fixed {
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.section:nth-child(6) {
+  -webkit-box-shadow: inset 0 1px 80px rgba(0, 0, 0, 0.14);
+  box-shadow: inset 0 1px 80px rgba(0, 0, 0, 0.14);
+  background-color: #0ac20a;
+  color: #fff;
+  top: 500vh;
+  z-index: 6;
+}
+
+.oop {
+  position: relative;
+  z-index: auto;
+  height: 10px;
+  background: linear-gradient(141deg, #48ded4 0%, #a026bf 51%, #e82c75 75%);
+}
+
+.fuckoff {
+  background-color: white;
+  z-index: 99;
+  position: fixed;
+}
+
+.navbar-brand {
+  color: #031926;
+}
+
+.navbar-brand:hover {
+  color: lightslategrey;
+}
+
+.maintitle {
+  font-size: 18em;
+  line-height: 1;
+  font-family: "Staatliches", cursive;
+  text-align: center;
+}
+
+.secondtitle {
+  font-size: 9em;
+  line-height: 1;
+  font-family: "Staatliches", cursive;
+  text-align: center;
+}
+
+.deroulant > a::after {
+  content: " ↓";
+  font-size: large;
+}
+
+.center {
+  text-align: center;
+}
+
+.borderer {
+  border: 7px solid white;
+}
